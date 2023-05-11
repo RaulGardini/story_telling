@@ -10,7 +10,6 @@ const Tab = createMaterialBottomTabNavigator();
 
 export default function Tab_navigator() {
     return (
-      <NavigationContainer>
         <Tab.Navigator
         labeled = {false}
         barStyle = {styles.bottomTabStyle}
@@ -36,7 +35,6 @@ export default function Tab_navigator() {
           <Tab.Screen name="feed" component={Feed} />
           <Tab.Screen name="create_story" component={CreateStory} />
         </Tab.Navigator>
-      </NavigationContainer>
     );
   }
 

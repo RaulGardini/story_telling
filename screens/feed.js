@@ -3,6 +3,8 @@ import {Text, View, StyleSheet, SafeAreaView, Platform, StatusBar, Image} from "
 import * as Font from "expo-font"
 import * as SplashScreen from "expo-splash-screen"
 import { FlatList } from "react-native-gesture-handler";
+import { RFValue } from "react-native-responsive-fontsize";
+import StoryCard from "./storyCard";
 
 SplashScreen.preventAutoHideAsync()
 let customFonts = {
